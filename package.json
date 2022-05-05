@@ -1,0 +1,22 @@
+{
+  "name": "recipe_app",
+  "version": "1.0.0",
+  "description": "web app for searching recipes online",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "build parcel index.html"
+  },
+  "author": "maddy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
